@@ -6,6 +6,9 @@
 
 header h1{
     color: white;
+    font-size: 47px;
+    font-family: 'Anton', sans-serif;
+    margin-left: 60px;
 }
 
 
@@ -13,23 +16,203 @@ a{
     color: white;
     text-decoration: none;
     margin-right: 50px;
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
 }
 
 .h1{
     color: rgb(18, 147, 212);
 }
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(36, 40, 43);
-    border-bottom: 5px solid rgb(18, 147, 212 );
-    padding: 40px 120px 40px 120px;
+    border-bottom: 7px solid rgb(18, 147, 212 );
+    padding: 50px 120px 50px 120px;
+}
+
+/* section 1 de pagina 1*/
+
+.portada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../assets/cabecera.jpg);
+    height: 50vh;
+    background-position-y: -300px ;
+    zoom: 1.4;
+}
+
+h2{
+    /* padding-bottom: 200px; */
+    font-size: 60px;
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+.portada p{
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 120px;
+    font-size: 22px;
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+/* section 2 de pagina 1*/
+
+.formulario{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(36, 40, 43);
+    height: 15vh;
+}
+
+h3{
+    color: white;
+    font-size: 35px;
+    font-family: 'Anton', sans-serif;
+    margin-left: 70px
+}
+
+input{
+    margin-left: 46%;
+    font-size: 40px;
+}
+
+::placeholder{
+    font-size: 20px;
+}
+
+button{
+    background-color: rgb(232, 73, 29);
+    color: white;
+    padding: 17px 25px;
+}
+
+.b{
+    font-size: 20px;
+}
+
+/* section 3 de pagina 1*/
+
+.logos{
+    display: flex;
+    padding: 0 140px;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
 }
 
 img{
-    background: url();
-    height: 80vh;
-    background-position-y: -300px ;
+    width: 120px;
+    margin-bottom: 30px;
+}
 
+.log{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+h4{
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+}
+
+.logos p{
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    background-color: rgb(18, 147, 212);
+    height: 140px;
+    color: white;
+}
+
+footer p{
+    font-size: 25px;
+}
+
+/* section 2 de nosotros */
+
+.nosotros{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: -215px;
+}
+
+.left{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-top: 10px;
+    padding-right: 552px;
+    margin-bottom: 15px;
+}
+
+.left p{
+    margin-top: 10px;
+}
+
+.parrafo{
+    background-color: rgb(53, 66, 74);
+    padding: 10px 120px 10px 0px;
+    width: 67%;
+}
+
+.parrafo p{
+    padding: 10px;
+    color: white;
+}
+
+.img1{
+width: 67%;
+margin-top: 30px;
+}
+
+.hacemos{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px 0px 150px;
+}
+
+.que{
+    background-color: rgb(53, 66, 74);
+    padding:40px 30px 5px 20px;
+    margin-left: 75%;
+    margin-bottom: 370px;
+    margin-top: -41%;
+}
+
+.que p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.que h4{
+    color: white;
+}
+
+.hacemos p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Anton',sans-serif;
 }
